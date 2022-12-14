@@ -1,0 +1,36 @@
+.App {
+  text-align: left;
+  padding: 20px;
+}
+
+.tab {
+  border: 1px solid black;
+  border-left: none;
+  padding: 5px;
+  border-top-right-radius: 30%;
+  border-bottom: none;
+}
+
+.first-tab {
+  border-left: 1px solid black;
+}
+
+.selected {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.unselected {
+  background: white;
+  color: red;
+  cursor: pointer;
+}
+
+.content-box {
+  border: 1px solid black;
+  border-top: none;
+  padding: 5px;
+  width: 50%;
+  height: 300px;
+}
